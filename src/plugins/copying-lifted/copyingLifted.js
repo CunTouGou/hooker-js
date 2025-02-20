@@ -45,7 +45,7 @@ function removeCopyEvent() {
                     }
                 }, false);
 
-            var style = 'body * :not(input):not(textarea){-webkit-user-select:auto!important;-moz-user-select:auto!important;-ms-user-select:auto!important;user-select:auto!important}';
+            var style = 'body, body *:not(input):not(textarea){-webkit-user-select:auto!important;-moz-user-select:auto!important;-ms-user-select:auto!important;user-select:auto!important}';
 
             var stylenode = document.createElement('style');
 
